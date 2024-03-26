@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,600;0,700;1,600&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/netflixbackground.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(120rem, 100vw);
+    position: relative;  
+}
+
+.box {
+    width: 100vw;
+    height: 80vh;
+    opacity: 0.54;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 6.2rem;
+    
+
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 9.25rem;
+    height: 1.9rem;
+    
+}
+
+nav button {
+    border: 0.1rem solid rgb(95, 93, 93);
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 6.2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    gap: 1.8rem;
+    padding: 0rem 3rem;
+
+
+}
+
+.hero> :nth-child(1) {
+    font-size: 4.4rem;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 0.6rem;
+    background-color: rgb(42, 40, 40);
+}
+
+.btn {
+    padding: 0.4rem 1rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border-radius: 0.4rem;
+    border: 0.1rem solid white;
+    cursor: pointer;
+
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-red {
+    background-color: red;
+    border-radius: 0.5rem;
+    justify-self: end;
+    align-items: center;
+}
+
+.btn-red2 {
+    background-color: red;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main input {
+    border-radius: 0.5rem;
+    padding: 1.6rem 9.9rem 0.6rem 0.4px;
+    font-size: 1.2rem;
+    background-color: rgba(23, 23, 23, 0.23);
+    font-weight: bold;
+    border: 0.1rem solid white;
+    color: white;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    max-width: 70vw;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    padding-top: 0.7rem;
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 7.2rem;
+    left: 6.2rem;
+    width: 35rem;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.first>div :nth-child(1) {
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+.first>div :nth-child(2) {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.third>div :nth-child(1) {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.third>div :nth-child(2) {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.thrdImg video {
+    position: absolute;
+    height: 16rem;
+
+    top: 5rem;
+    right: 9.3rem;
+}
+
+.second>div :nth-child(1) {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.second>div :nth-child(2) {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.fourth>div :nth-child(1) {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.fourth>div :nth-child(2) {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 3.4rem;
+    font-size: 2rem;
+}
+
+.faqbox {
+    display: flex;
+    background-color: #262626;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin: 1.2rem auto;
+    max-width: 70vw;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox span {
+    color: white;
+    font-size: 2rem;
+}
+
+.faq input {
+    border-radius: 0.5rem;
+    padding: 1.6rem 9.9rem 0.6rem 0.4rem;
+    font-size: 1.2rem;
+    background-color: rgba(23, 23, 23, 0.23);
+    font-weight: bold;
+    border: 0.1rem solid white;
+    color: white;
+
+}
+
+footer {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 1rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    height: auto;
+}
+
+footer .question {
+    padding: 2rem 0rem;
+    font-size: small;
+}
+
+.footer a {
+    color: white;
+    font-size: 1.1rem;
+    justify-self: flex-start;
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.english {
+    padding-top: 2rem;
+}
+
+.last {
+    padding-top: 2rem;
+    font-size: small;
+}
+
+@media screen and (max-width:900px) {
+    html{
+        font-size: 55%;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    html{
+        font-size: 45%;
+    }
+    
+}
+
+
+
